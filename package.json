@@ -1,0 +1,41 @@
+{
+  "name": "ook-js",
+  "version": "1.0.0",
+  "description": "Ook Ook Interpreter in JS",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "watch": "node_modules/.bin/gulp js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasbrugneaux/ook-js.git"
+  },
+  "author": "Nicolas Brugneaux <nicolas.brugneaux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nicolasbrugneaux/ook-js/issues"
+  },
+  "homepage": "https://github.com/nicolasbrugneaux/ook-js#readme",
+  "dependencies": {
+    "babel": "^5.2.16",
+    "babelify": "^6.0.2",
+    "browserify": "^10.1.0",
+    "classnames": "^2.1.1",
+    "gulp": "^3.8.11",
+    "gulp-jasmine": "^2.0.1",
+    "gulp-util": "^3.0.4",
+    "material-ui": "^0.7.5",
+    "object-assign": "^2.0.0",
+    "react": "^0.13.2",
+    "react-tap-event-plugin": "^0.1.6",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  },
+  "devDependencies": {
+    "gulp-jasmine": "^2.0.1"
+  }
+}
